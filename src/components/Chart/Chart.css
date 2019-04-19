@@ -1,0 +1,18 @@
+.chart-container{
+margin:20px auto;
+display:flex;
+flex-direction: column;
+width: 86vw;
+}
+.chart-container>h1{
+    padding:0 10px;
+    margin-bottom:25px;
+    font-size: 30px;
+    font-weight:bold;
+    text-decoration:underline;
+}
+.chart-container>h2{
+    padding:0 10px;
+    margin-top:10px;
+    font-size: 22px;
+}

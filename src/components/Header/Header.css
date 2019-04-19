@@ -1,0 +1,21 @@
+.nav-bar{
+    padding-top: 10px;
+    display:flex;
+    width: 400px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.selected{
+    color: rgb(0, 0, 182);
+    text-decoration: underline;
+}
+
+.nav-bar>a{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.nav-bar>a:hover{
+    color: rgb(0, 0, 182);
+}

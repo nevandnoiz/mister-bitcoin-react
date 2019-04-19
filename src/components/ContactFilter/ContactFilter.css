@@ -1,0 +1,12 @@
+.contact-filter{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-filter>input{
+   width: 300px;
+border:1px solid gray;
+height: 30px;
+padding: 0 10px;
+}
+

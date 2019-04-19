@@ -1,0 +1,44 @@
+.signup-page{
+    display:flex;
+    position: absolute;
+    bottom:35%;
+    left:0;
+    right:0;
+justify-content:center;
+}
+.signup-container{
+    padding:30px;
+    border:1px solid black;
+    display:flex;
+    width:65vw;
+    height:45vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.signup-container>i{
+    font-size:80px;
+}
+.signup-container>p{
+    font-size:20px;
+}
+.signup-container>input{
+    padding:4px 12px;
+    font-size:20px;
+    width:30vw;
+}
+.signup-container>button{
+    font-size: 20px;
+    width: 120px;
+    border-radius:2px;
+    height: 35px;
+    color: rgb(248, 248, 248);
+    background-color: rgb(54, 180, 223);
+    border: 1px solid blue;
+    cursor: pointer;
+    }
+    
+.signup-container>button:active{
+    padding:1px;
+    border: 2px solid rgb(106, 106, 255);
+}

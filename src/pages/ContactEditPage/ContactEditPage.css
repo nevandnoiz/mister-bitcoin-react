@@ -1,0 +1,78 @@
+.edit-container{
+    display: flex;
+    padding-top: 30px;
+    width: 80vw;
+    margin:0 auto;
+    justify-content: space-evenly;
+}
+.edit-container>img{
+    border: 3px solid black;
+    padding: 10px;
+    background-color:#e0ecfd;
+}
+
+.edit-nav{
+    display:flex;
+    justify-content:space-between;
+    height:60px;
+    padding: 0 30px;
+    border-bottom:1px solid gray;
+}
+
+.edit-nav>.return-button{
+    color: rgb(248, 248, 248);
+    cursor: pointer;
+    width:50px;
+    height:50px;
+    font-size: 30px;
+    font-weight:bold;
+    background-color: rgb(54, 180, 223);
+    border: 1px solid blue;
+    border-radius: 50%;
+}
+.edit-nav>.trash-button{
+    color: rgb(71, 71, 71);
+    cursor: pointer;
+    width:50px;
+    height:50px;
+    background:none;
+    font-size: 30px;
+    font-weight:bold;
+    border: none;
+}
+
+.edit-nav>.return-button:hover{
+    background-color: rgb(110, 186, 211);
+}
+
+.edit-nav>.trash-button:hover{
+    color: rgb(105, 105, 105);
+}
+
+.edit-container>form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.edit-container>form>input{
+padding:12px;
+font-size:16px;
+width:30vw;
+}
+
+.edit-container>form>button{
+font-size: 20px;
+width: 120px;
+border-radius:2px;
+height: 35px;
+background-color: rgb(54, 180, 223);
+border: 1px solid blue;
+cursor: pointer;
+}
+
+.edit-container>form>button:active{
+padding:1px;
+border: 2px solid rgb(106, 106, 255);
+}
